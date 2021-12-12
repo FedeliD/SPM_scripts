@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<atlas version="2.0">
+	<header>
+		<name>AAL</name>
+		<version>1.0</version>
+		<description>AAL</description>
+		<type>Label</type>
+
+    <images>
+		<imagefile>/AAL/AAL.nii.gz</imagefile>
+		<summaryimagefile>/AAL/AAL.nii.gz</summaryimagefile>
+    </images>
+	</header>
+	<data>
+		<label index="2001" x="-40"	y="-6"	z="51">Precentral_L</label>
+		<label index="2002" x="40"	y="-8"	z="52">Precentral_R</label>
+		<label index="2101" x="-19"	y="35"	z="42">Frontal_Sup_L</label>
+		<label index="2102" x="20"	y="31"	z="44">Frontal_Sup_R</label>
+		<label index="2111" x="-18"	y="47"	z="-13">Frontal_Sup_Orb_L</label>
+		<label index="2112" x="17"	y="48"	z="-14">Frontal_Sup_Orb_R</label>
+		<label index="2201" x="-34"	y="33"	z="35">Frontal_Mid_L</label>
+		<label index="2202" x="37"	y="33"	z="34">Frontal_Mid_R</label>
+		<label index="2211" x="-32"	y="50"	z="-10">Frontal_Mid_Orb_L</label>
+		<label index="2212" x="32"	y="53"	z="-11">Frontal_Mid_Orb_R</label>
+		<label index="2301" x="-49"	y="13"	z="19">Frontal_Inf_Oper_L</label>
+		<label index="2302" x="49"	y="15"	z="21">Frontal_Inf_Oper_R</label>
+		<label index="2311" x="-47"	y="30"	z="14">Frontal_Inf_Tri_L</label>
+		<label index="2312" x="49"	y="30"	z="14">Frontal_Inf_Tri_R</label>
+		<label index="2321" x="-37"	y="31"	z="-12">Frontal_Inf_Orb_L</label>
+		<label index="2322" x="40"	y="32"	z="-12">Frontal_Inf_Orb_R</label>
+		<label index="2331" x="-48"	y="-8"	z="14">Rolandic_Oper_L</label>
+		<label index="2332" x="52"	y="-6"	z="15">Rolandic_Oper_R</label>
+		<label index="2401" x="-6"	y="5"	z="61">Supp_Motor_Area_L</label>
+		<label index="2402" x="8"	y="0"	z="62">Supp_Motor_Area_R</label>
+		<label index="2501" x="-9"	y="15"	z="-12">Olfactory_L</label>
+		<label index="2502" x="8"	y="16"	z="-11">Olfactory_R</label>
+		<label index="2601" x="-6"	y="49"	z="31">Frontal_Sup_Medial_L</label>
+		<label index="2602" x="8"	y="51"	z="30">Frontal_Sup_Medial_R</label>
+		<label index="2611" x="-6"	y="54"	z="-7">Frontal_Med_Orb_L</label>
+		<label index="2612" x="7"	y="52"	z="-7">Frontal_Med_Orb_R</label>
+		<label index="2701" x="-6"	y="37"	z="-18">Rectus_L</label>
+		<label index="2702" x="7"	y="36"	z="-18">Rectus_R</label>
+		<label index="3001" x="-36"	y="7"	z="3">Insula_L</label>
+		<label index="3002" x="38"	y="6"	z="2">Insula_R</label>
+		<label index="4001" x="-5"	y="35"	z="14">Cingulum_Ant_L</label>
+		<label index="4002" x="7"	y="37"	z="16">Cingulum_Ant_R</label>
+		<label index="4011" x="-6"	y="-15"	z="42">Cingulum_Mid_L</label>
+		<label index="4012" x="7"	y="-9"	z="40">Cingulum_Mid_R</label>
+		<label index="4021" x="-6"	y="-43"	z="25">Cingulum_Post_L</label>
+		<label index="4022" x="6"	y="-42"	z="22">Cingulum_Post_R</label>
+		<label index="4101" x="-26"	y="-21"	z="-10">Hippocampus_L</label>
+		<label index="4102" x="28"	y="-20"	z="-10">Hippocampus_R</label>
+		<label index="4111" x="-22"	y="-16"	z="-21">ParaHippocampal_L</label>
+		<label index="4112" x="24"	y="-15"	z="-20">ParaHippocampal_R</label>
+		<label index="4201" x="-24"	y="-1"	z="-17">Amygdala_L</label>
+		<label index="4202" x="26"	y="1"	z="-18">Amygdala_R</label>
+		<label index="5001" x="-8"	y="-79"	z="6">Calcarine_L</label>
+		<label index="5002" x="15"	y="-73"	z="9">Calcarine_R</label>
+		<label index="5011" x="-7"	y="-80"	z="27">Cuneus_L</label>
+		<label index="5012" x="13"	y="-79"	z="28">Cuneus_R</label>
+		<label index="5021" x="-16"	y="-68"	z="-5">Lingual_L</label>
+		<label index="5022" x="15"	y="-67"	z="-4">Lingual_R</label>
+		<label index="5101" x="-18"	y="-84"	z="28">Occipital_Sup_L</label>
+		<label index="5102" x="23"	y="-81"	z="31">Occipital_Sup_R</label>
+		<label index="5201" x="-33"	y="-81"	z="16">Occipital_Mid_L</label>
+		<label index="5202" x="36"	y="-80"	z="19">Occipital_Mid_R</label>
+		<label index="5301" x="-37"	y="-78"	z="-8">Occipital_Inf_L</label>
+		<label index="5302" x="37"	y="-82"	z="-8">Occipital_Inf_R</label>
+		<label index="5401" x="-32"	y="-40"	z="-20">Fusiform_L</label>
+		<label index="5402" x="33"	y="-39"	z="-20">Fusiform_R</label>
+		<label index="6001" x="-43"	y="-23"	z="49">Postcentral_L</label>
+		<label index="6002" x="40"	y="-25"	z="53">Postcentral_R</label>
+		<label index="6101" x="-24"	y="-60"	z="59">Parietal_Sup_L</label>
+		<label index="6102" x="25"	y="-59"	z="62">Parietal_Sup_R</label>
+		<label index="6201" x="-44"	y="-46"	z="47">Parietal_Inf_L</label>
+		<label index="6202" x="45"	y="-46"	z="50">Parietal_Inf_R</label>
+		<label index="6211" x="-57"	y="-34"	z="30">SupraMarginal_L</label>
+		<label index="6212" x="57"	y="-32"	z="34">SupraMarginal_R</label>
+		<label index="6221" x="-45"	y="-61"	z="36">Angular_L</label>
+		<label index="6222" x="45"	y="-60"	z="39">Angular_R</label>
+		<label index="6301" x="-8"	y="-56"	z="48">Precuneus_L</label>
+		<label index="6302" x="9"	y="-56"	z="44">Precuneus_R</label>
+		<label index="6401" x="-9"	y="-25"	z="70">Paracentral_Lobule_L</label>
+		<label index="6402" x="6"	y="-32"	z="68">Paracentral_Lobule_R</label>
+		<label index="7001" x="-12"	y="11"	z="9">Caudate_L</label>
+		<label index="7002" x="14"	y="12"	z="9">Caudate_R</label>
+		<label index="7011" x="-25"	y="4"	z="2">Putamen_L</label>
+		<label index="7012" x="27"	y="5"	z="2">Putamen_R</label>
+		<label index="7021" x="-19"	y="0"	z="0">Pallidum_L</label>
+		<label index="7022" x="20"	y="0"	z="0">Pallidum_R</label>
+		<label index="7101" x="-12"	y="-18"	z="8">Thalamus_L</label>
+		<label index="7102" x="12"	y="-18"	z="8">Thalamus_R</label>
+		<label index="8101" x="-43"	y="-19"	z="10">Heschl_L</label>
+		<label index="8102" x="45"	y="-17"	z="10">Heschl_R</label>
+		<label index="8111" x="-54"	y="-21"	z="7">Temporal_Sup_L</label>
+		<label index="8112" x="57"	y="-22"	z="7">Temporal_Sup_R</label>
+		<label index="8121" x="-41"	y="15"	z="-20">Temporal_Pole_Sup_L</label>
+		<label index="8122" x="47"	y="15"	z="-17">Temporal_Pole_Sup_R</label>
+		<label index="8201" x="-57"	y="-34"	z="-2">Temporal_Mid_L</label>
+		<label index="8202" x="56"	y="-37"	z="-1">Temporal_Mid_R</label>
+		<label index="8211" x="-37"	y="15"	z="-34">Temporal_Pole_Mid_L</label>
+		<label index="8212" x="43"	y="15"	z="-32">Temporal_Pole_Mid_R</label>
+		<label index="8301" x="-51"	y="-28"	z="-23">Temporal_Inf_L</label>
+		<label index="8302" x="53"	y="-31"	z="-22">Temporal_Inf_R</label>
+		<label index="9001" x="-36"	y="-67"	z="-29">Cerebelum_Crus1_L</label>
+		<label index="9002" x="37"	y="-67"	z="-30">Cerebelum_Crus1_R</label>
+		<label index="9011" x="-29"	y="-73"	z="-38">Cerebelum_Crus2_L</label>
+		<label index="9012" x="32"	y="-69"	z="-40">Cerebelum_Crus2_R</label>
+		<label index="9021" x="-9"	y="-37"	z="-19">Cerebelum_3_L</label>
+		<label index="9022" x="12"	y="-34"	z="-19">Cerebelum_3_R</label>
+		<label index="9031" x="-15"	y="-43"	z="-17">Cerebelum_4_5_L</label>
+		<label index="9032" x="17"	y="-43"	z="-18">Cerebelum_4_5_R</label>
+		<label index="9041" x="-23"	y="-59"	z="-22">Cerebelum_6_L</label>
+		<label index="9042" x="25"	y="-58"	z="-24">Cerebelum_6_R</label>
+		<label index="9051" x="-33"	y="-60"	z="-43">Cerebelum_7b_L</label>
+		<label index="9052" x="35"	y="-64"	z="-47">Cerebelum_7b_R</label>
+		<label index="9061" x="-26"	y="-55"	z="-48">Cerebelum_8_L</label>
+		<label index="9062" x="25"	y="-56"	z="-49">Cerebelum_8_R</label>
+		<label index="9071" x="-11"	y="-49"	z="-46">Cerebelum_9_L</label>
+		<label index="9072" x="9"	y="-49"	z="-46">Cerebelum_9_R</label>
+		<label index="9081" x="-23"	y="-34"	z="-42">Cerebelum_10_L</label>
+		<label index="9082" x="26"	y="-34"	z="-41">Cerebelum_10_R</label>
+		<label index="9100" x="1"	y="-39"	z="-20">Vermis_1_2</label>
+		<label index="9110" x="1"	y="-40"	z="-11">Vermis_3</label>
+		<label index="9120" x="1"	y="-52"	z="-6">Vermis_4_5</label>
+		<label index="9130" x="1"	y="-67"	z="-15">Vermis_6</label>
+		<label index="9140" x="1"	y="-72"	z="-25">Vermis_7</label>
+		<label index="9150" x="1"	y="-64"	z="-34">Vermis_8</label>
+		<label index="9160" x="1"	y="-55"	z="-35">Vermis_9</label>
+		<label index="9170" x="0"	y="-46"	z="-32">Vermis_10</label>
+	</data>
+</atlas>

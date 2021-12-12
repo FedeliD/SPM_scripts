@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+#
+
+export SUBJECTS_DIR=/media/sf_share/fs_executive
+for f in *.nii; do
+  cd $SUBJECTS_DIR
+  s=${f%%.*}
+  echo "processing subject $s"
+  date
+  recon-all -subject $s -i $f -3T -all
+  date
+done
+
+
+#!/usr/bin/env bash
+#
+
+export SUBJECTS_DIR=/home/jubin/Downloads/FreeSurfer_dir/fs_switch/proc_1
+for f in *.nii; do
+  cd $SUBJECTS_DIR
+  s=${f%%.*}
+  echo "processing subject $s"
+  date
+  recon-all -subject $s -i $f -3T -all
+  date
+done
